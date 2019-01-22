@@ -2,7 +2,7 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 include $(LOCAL_PATH)/../Android.common.mk
 
-HYBRIS_PATH := $(LOCAL_PATH)/../../hybris
+HYBRIS_PATH := $(LOCAL_PATH)/..
 
 LOCAL_SRC_FILES:= \
 	ui_compatibility_layer.cpp

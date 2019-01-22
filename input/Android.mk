@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 include $(LOCAL_PATH)/../Android.common.mk
 
-HYBRIS_PATH := $(LOCAL_PATH)/../../hybris
+HYBRIS_PATH := $(LOCAL_PATH)/..
 
 LOCAL_CFLAGS += -std=gnu++0x
 
@@ -44,7 +44,7 @@ include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
 
-HYBRIS_PATH := $(LOCAL_PATH)/../../hybris
+HYBRIS_PATH := $(LOCAL_PATH)/..
 
 LOCAL_CFLAGS += -std=gnu++0x
 

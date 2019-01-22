@@ -47,7 +47,7 @@ include $(BUILD_EXECUTABLE)
 include $(CLEAR_VARS)
 include $(LOCAL_PATH)/../Android.common.mk
 
-HYBRIS_PATH := $(LOCAL_PATH)/../../hybris
+HYBRIS_PATH := $(LOCAL_PATH)/..
 
 LOCAL_CFLAGS += -std=gnu++0x
 
